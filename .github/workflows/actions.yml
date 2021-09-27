@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Tests
-        run: npx cypress run --env email=${{ secrets.EMAIL }},password=${{ secrets.PASSWORD }} --headless --browser chrome --video false
+        run: ./node_modules/.bin/cypress run --env email=${{ secrets.EMAIL }},password=${{ secrets.PASSWORD }} --headless --browser chrome --video false
