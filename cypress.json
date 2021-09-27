@@ -1,4 +1,5 @@
 {
     "video": false,
-    "retries": 1
+    "retries": 1,
+    "defaultCommandTimeout": 10000
 }
